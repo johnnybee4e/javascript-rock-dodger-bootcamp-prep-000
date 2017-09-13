@@ -147,14 +147,14 @@ function moveDodger(e) {
        e.preventDefault()
        e.stopPropagation()
      }
-   
+
      if (code === LEFT_ARROW) {
        moveDodgerLeft()
      } else if (code === RIGHT_ARROW) {
        moveDodgerRight()
      }
    }
-}
+
 
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
